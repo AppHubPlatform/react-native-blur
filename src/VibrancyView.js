@@ -21,4 +21,5 @@ VibrancyView.propTypes = {
 
 const NativeVibrancyView = requireNativeComponent('VibrancyView', VibrancyView);
 
-export default VibrancyView;
+module.exports = VibrancyView;
+
