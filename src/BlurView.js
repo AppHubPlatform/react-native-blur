@@ -1,8 +1,5 @@
-const React = require('react-native');
-const {
-  requireNativeComponent,
-  Component
-} = React;
+import React, { Component } from 'react';
+import { requireNativeComponent } from 'react-native';
 
 class BlurView extends Component {
   render() {
@@ -24,4 +21,4 @@ BlurView.propTypes = {
 
 const NativeBlurView = requireNativeComponent('BlurView', BlurView);
 
-module.exports = BlurView;
+export default BlurView;

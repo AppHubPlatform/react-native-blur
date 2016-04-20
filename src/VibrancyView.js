@@ -1,8 +1,5 @@
-const React = require('react-native');
-const {
-  requireNativeComponent,
-  Component
-} = React;
+import React, { Component } from 'react';
+import { requireNativeComponent } from 'react-native';
 
 class VibrancyView extends Component {
   render() {
@@ -24,4 +21,4 @@ VibrancyView.propTypes = {
 
 const NativeVibrancyView = requireNativeComponent('VibrancyView', VibrancyView);
 
-module.exports = VibrancyView;
+export default VibrancyView;
